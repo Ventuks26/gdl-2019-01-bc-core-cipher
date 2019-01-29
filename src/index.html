@@ -5,6 +5,7 @@
     <title>Cifrado Cesar</title>
   </head>
   <body>
+    <div>
     <center>
     <h1> ¡Nombres Cifrados! </h1>
     <p> Esta aplicación o juego tiene como finalidad
@@ -25,18 +26,19 @@
        se desplace cada caracter? </h3>
 
     <form>
-     <input type="text" name="numero" size="4" value="Número"/>
+     <input type="text" id="txNumero"   size="4" value="Número"/>
      <br/>
      <br/>
       <br/>
 
 
-      <input type="text" name="Nombre" size="12" value="Ingrese el nombre"/>
+      <input type="text" id="txNombre" size="12" value="Ingrese el nombre"/>
 
     </form>
     <button type="button" onclick="Cifrar()">Cifrar</button>
     <button type="button" onclick="Descifrar()">Descifrar</button>
     </center>
+  </div>
   </body>
 
   <<script type="text/javascript" src=app.js>
