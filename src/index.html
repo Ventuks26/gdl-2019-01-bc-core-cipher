@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Cifrado Cesar</title>
@@ -26,22 +26,22 @@
        se desplace cada caracter? </h3>
 
     <form>
-     <input type="text" id="txNumero"   size="4" value="Número"/>
+     <input type="number" id="txNumero"  min="1" pattern="^[0-9]+" />
      <br/>
      <br/>
       <br/>
 
 
-      <input type="text" id="txNombre" size="12" value="Ingrese el nombre"/>
+      <input type="text" id="txNombre"  />
 
     </form>
-    <button type="button" onclick="Cifrar()">Cifrar</button>
-    <button type="button" onclick="Descifrar()">Descifrar</button>
+    <button type="button" id="cif" onclick="cifrar()">Cifrar</button>
+    <button type="button"id="descifrar" onclick="Descifrar()">Descifrar</button>
     </center>
   </div>
   </body>
 
-  <<script type="text/javascript" src=app.js>
+  <<script type="text/javascript" src=index.js>
 
   </script>
 </html>
