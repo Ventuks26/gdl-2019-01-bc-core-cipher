@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+    body { background-color: #F0ECD6;
+      border-top: 30px solid #BBC35C;
+      border-right: 50px solid #BBC35C;
+      border-bottom: 50px solid #BBC35C;
+      border-left: 50px solid #BBC35C;
+     }
+  </style>
     <meta charset="utf-8">
+
     <title>Cifrado Cesar</title>
   </head>
   <body>
     <div>
-    <center>
-    <h1> ¡Nombres Cifrados! </h1>
+
+        <div id ="nombreDelJuego">
+      <h1> ¡Nombres Cifrados! </h1>
+        </div>
+
+        <div id ="bienvenida">
     <p> Esta aplicación o juego tiene como finalidad
        mostrarte cómo seria tu nombre en el cifrado Cesar,
         o como descifrar un nombre, según el caso.</p>
+        </div>
 
+        <div id ="explicacionDeCifrado">
    <p>El cifrado César, también conocido como cifrado
      por desplazamiento, es una de las técnicas de cifrado más simples y más usadas.
       Es un tipo de cifrado por sustitución en el que una letra
@@ -21,10 +36,14 @@
       por la D (situada 3 lugares a la derecha de la A),
       la B sería reemplazada por la E, etc.
    <p/>
+        </div>
 
+        <div id ="desp">
     <h3>¿Cúantas posiciones quieres que
        se desplace cada caracter? </h3>
+        </div>
 
+        <div id ="datos">
     <form>
      <input type="number" id="txNumero"  min="1" pattern="^[0-9]+" />
      <br/>
@@ -37,17 +56,22 @@
     </form>
     <br/>
     <br/>
-
+      </div >
+  <center>
     <button type="button" id="cif" >Cifrar</button>
     <button type="button"id="descifrar" >Descifrar</button>
     <br/>
     <br/>
-      <input type="text" id="result"  />
-    </center>
+  </center>
+
+    <div id ="result">
+      <p>  </p>
+
+
   </div>
   </body>
 
-  <<script type="text/javascript" src=index.js>
-
-  </script>
+  <<script type="text/javascript" src=index.js></script>
+  <<script type="text/javascript" src=cipher.js></script>
+<link href="style.css" rel="stylesheet" type="text/css">
 </html>
