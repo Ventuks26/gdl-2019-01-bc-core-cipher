@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-    body { background-color: #F0ECD6;
-      border-top: 30px solid #BBC35C;
-      border-right: 50px solid #BBC35C;
-      border-bottom: 50px solid #BBC35C;
-      border-left: 50px solid #BBC35C;
-     }
-  </style>
     <meta charset="utf-8">
 
     <title>Cifrado Cesar</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div>
@@ -23,11 +16,12 @@
         <div id ="bienvenida">
     <p> Esta aplicación o juego tiene como finalidad
        mostrarte cómo seria tu nombre en el cifrado Cesar,
-        o como descifrar un nombre, según el caso.</p>
+        o como descifrar un nombre, según el caso.
+      </p>
         </div>
 
-        <div id ="explicacionDeCifrado">
-   <p>El cifrado César, también conocido como cifrado
+        <div id ="explicacionDeCifrado"> <p>
+     El cifrado César, también conocido como cifrado
      por desplazamiento, es una de las técnicas de cifrado más simples y más usadas.
       Es un tipo de cifrado por sustitución en el que una letra
       en el texto original es reemplazada por otra letra que se encuentra
@@ -35,7 +29,7 @@
       con un desplazamiento de 3, la A sería sustituida
       por la D (situada 3 lugares a la derecha de la A),
       la B sería reemplazada por la E, etc.
-   <p/>
+   </p>
         </div>
 
         <div id ="desp">
@@ -56,21 +50,23 @@
     </form>
     <br/>
     <br/>
-      </div >
+      </div>
   <center>
-    <button type="button" id="cifrar" >Cifrar</button>
-    <button type="button"id="descifrar" >Descifrar</button>
+    <button type="button" id="cifrar">Cifrar</button>
+    <button type="button" id="descifrar">Descifrar</button>
     <br/>
     <br/>
   </center>
   <center>
-    <div >
+    <div>
       <textarea class="last" id="result" disabled> </textarea>
+
   </div>
   </center>
+</div>
   </body>
 
-  <<script type="text/javascript" src=index.js></script>
-  <<script type="text/javascript" src=cipher.js></script>
-<link href="style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="cipher.js"></script>
+
 </html>

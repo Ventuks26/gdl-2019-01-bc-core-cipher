@@ -1,11 +1,16 @@
 
 
-
+body { background-color: #F0ECD6;
+  border-top: 30px solid #BBC35C;
+  border-right: 50px solid #BBC35C;
+  border-bottom: 50px solid #BBC35C;
+  border-left: 50px solid #BBC35C;
+ }
 #bienvenida {
   text-align: center;
   font-size: 20px;
   font-family: "Lobster Two", cursive;
-  color: #5E4803;  
+  color: #5E4803;
 }
 
 #nombreDelJuego {
