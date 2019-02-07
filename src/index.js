@@ -14,3 +14,8 @@ let nombr = document.getElementById('txNombre').value;
 document.getElementById('result').innerHTML= window.cipher.decode(parseInt(numDesp), nombr);
 
 });
+function lim(){
+  document.getElementById("data").reset();
+}
+
+document.getElementById('limpiar').addEventListener("click", lim);

@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'test' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle cipher@1.0.0~pretest: cipher@1.0.0
+6 verbose lifecycle cipher@1.0.0~pretest: unsafe-perm in lifecycle true
+7 verbose lifecycle cipher@1.0.0~pretest: PATH: /usr/share/npm/bin/node-gyp-bin:/home/laboratoria/Escritorio/ventura_Laboratoria/gdl-2019-01-bc-core-cipher/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+8 verbose lifecycle cipher@1.0.0~pretest: CWD: /home/laboratoria/Escritorio/ventura_Laboratoria/gdl-2019-01-bc-core-cipher
+9 silly lifecycle cipher@1.0.0~pretest: Args: [ '-c', 'npm run eslint && npm run htmlhint' ]
+10 silly lifecycle cipher@1.0.0~pretest: Returned: code: 0  signal: null
+11 info lifecycle cipher@1.0.0~test: cipher@1.0.0
+12 verbose lifecycle cipher@1.0.0~test: unsafe-perm in lifecycle true
+13 verbose lifecycle cipher@1.0.0~test: PATH: /usr/share/npm/bin/node-gyp-bin:/home/laboratoria/Escritorio/ventura_Laboratoria/gdl-2019-01-bc-core-cipher/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+14 verbose lifecycle cipher@1.0.0~test: CWD: /home/laboratoria/Escritorio/ventura_Laboratoria/gdl-2019-01-bc-core-cipher
+15 silly lifecycle cipher@1.0.0~test: Args: [ '-c', 'npm run test-node --silent && npm run test-browser' ]
+16 silly lifecycle cipher@1.0.0~test: Returned: code: 1  signal: null
+17 info lifecycle cipher@1.0.0~test: Failed to exec test script
+18 error Test failed.  See above for more details.
+19 verbose exit [ 1, true ]
+20 verbose stack Error: write EIO
+20 verbose stack     at _errnoException (util.js:1022:11)
+20 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+21 verbose cwd /home/laboratoria/Escritorio/ventura_Laboratoria/gdl-2019-01-bc-core-cipher
+22 error Linux 4.15.0-45-generic
+23 error argv "/usr/bin/node" "/usr/bin/npm" "test"
+24 error node v8.10.0
+25 error npm  v3.5.2
+26 error code EIO
+27 error errno EIO
+28 error syscall write
+29 error write EIO
+30 error If you need help, you may report this error at:
+30 error     <https://github.com/npm/npm/issues>
+31 verbose exit [ 1, true ]

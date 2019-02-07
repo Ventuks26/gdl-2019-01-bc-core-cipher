@@ -41,13 +41,8 @@ body {
 
 }
 
-#cifrar {
-  color: #5E4803;
-  background-color: #99CCFF;
 
-
-}
-#descifrar {
+#descifrar, #limpiar, #cifrar {
   color: #5E4803;
   background-color: #99CCFF;
 
