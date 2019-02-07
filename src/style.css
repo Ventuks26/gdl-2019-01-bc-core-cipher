@@ -38,4 +38,18 @@ body {
   font-size: 20px;
   color: #5E4803;
   font-family: "Lobster Two", cursive;
+
+}
+
+#cifrar {
+  color: #5E4803;
+  background-color: #99CCFF;
+
+
+}
+#descifrar {
+  color: #5E4803;
+  background-color: #99CCFF;
+
+
 }
